@@ -1,0 +1,11 @@
+﻿extends layout
+
+block content
+    h1!= name.handle + ' (<em>' + name.first + ' ' + name.last + '</em>)'
+
+    #info
+        p= 'Region: ' + region
+        p= 'Team: ' + team
+        p= 'Role: ' + role
+        
+        

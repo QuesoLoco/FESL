@@ -1,0 +1,49 @@
+﻿{	
+    "player": [
+	    {
+		    "name": { "first": "Jung", "handle": "Impact", "last": "Eon-yeong" },
+		    "region": "Korea",
+		    "team": "SK Telecom T1 K",
+		    "role": "Top"
+	    },
+	    {
+		    "name": { "first": "Bae", "handle": "Bengi", "last": "Seong-ung" },
+		    "region": "Korea",
+		    "team": "SK Telecom T1 K",
+		    "role": "Jungle"
+	    },
+	    {
+		    "name": { "first": "Lee", "handle": "Faker", "last": "Sang-hyeok" },
+		    "region": "Korea",
+		    "team": "SK Telecom T1 K",
+		    "role": "Mid"
+	    },
+	    {
+		    "name": { "first": "Chae", "handle": "Piglet", "last": "Gwang-jin" },
+		    "region": "Korea",
+		    "team": "SK Telecom T1 K",
+		    "role": "AD Carry"
+	    },
+	    {
+		    "name": { "first": "Lee", "handle": "PoohManDu", "last": "Jeong-hyeon" },
+		    "region": "Korea",
+		    "team": "SK Telecom T1 K",
+		    "role": "Support"
+	    }
+	],
+
+    "team": [
+        {
+            "name": "SK Telecom T1 K",
+            "ticker": "SKTK",
+            "region": "Korea",
+            "leagues": [
+                "OGN Masters",
+                "OGN Champions"
+            ]
+
+        }
+    ]
+
+}
+
