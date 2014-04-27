@@ -1,39 +1,45 @@
 ﻿{	
     "player": [
 	    {
+            "id": 1,
 		    "name": { "first": "Jung", "handle": "Impact", "last": "Eon-yeong" },
 		    "region": "Korea",
-		    "team": "SK Telecom T1 K",
+		    "team": 1,
 		    "role": "Top"
 	    },
 	    {
+            "id": 2,
 		    "name": { "first": "Bae", "handle": "Bengi", "last": "Seong-ung" },
 		    "region": "Korea",
-		    "team": "SK Telecom T1 K",
+		    "team": 1,
 		    "role": "Jungle"
 	    },
 	    {
+            "id": 3,
 		    "name": { "first": "Lee", "handle": "Faker", "last": "Sang-hyeok" },
 		    "region": "Korea",
-		    "team": "SK Telecom T1 K",
+		    "team": 1,
 		    "role": "Mid"
 	    },
 	    {
+            "id": 4,
 		    "name": { "first": "Chae", "handle": "Piglet", "last": "Gwang-jin" },
 		    "region": "Korea",
-		    "team": "SK Telecom T1 K",
+		    "team": 1,
 		    "role": "AD Carry"
 	    },
 	    {
+            "id": 5,
 		    "name": { "first": "Lee", "handle": "PoohManDu", "last": "Jeong-hyeon" },
 		    "region": "Korea",
-		    "team": "SK Telecom T1 K",
+		    "team": 1,
 		    "role": "Support"
 	    }
 	],
 
     "team": [
         {
+            "id": "1",
             "name": "SK Telecom T1 K",
             "ticker": "SKTK",
             "region": "Korea",

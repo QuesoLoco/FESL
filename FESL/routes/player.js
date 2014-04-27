@@ -1,10 +1,16 @@
-﻿var db = require('../db/db')('player');
+﻿var players = require('../db/db')('player');
+var teams = require('../db/db')('teams');
 
 exports.browse = function (req, res) {
-	res.render('player/read', db.read('Faker'));
+	var teamList = teams.browse();
+
+	res.render('player/read', players.search({ 'name': { 'handle': 'faker' } }));
 }
 
 exports.read = function (req, res) {
 	var playerId = req.params.id;
-	res.render('player/read', db.read(playerId));
+	var playerFound = players.search({ 'name': { 'handle': playerId } });
+
+
+	res.render('player/read', playerFound);
 }

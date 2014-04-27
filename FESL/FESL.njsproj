@@ -42,7 +42,8 @@
     <Content Include="README.md" />
     <Content Include="views\index.jade" />
     <Content Include="views\layout.jade" />
-    <Content Include="views\player.jade" />
+    <Content Include="views\player\browse.jade" />
+    <Content Include="views\player\read.jade" />
     <Content Include="views\team.jade" />
   </ItemGroup>
   <ItemGroup>
@@ -54,6 +55,7 @@
     <Folder Include="public\stylesheets\" />
     <Folder Include="routes\" />
     <Folder Include="views\" />
+    <Folder Include="views\player\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
   <ProjectExtensions>
